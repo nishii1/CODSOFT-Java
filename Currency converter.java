@@ -16,7 +16,7 @@ class CurrencyConverter {
   
         System.out.println("Which currency You want to Convert ? ");
          
-        System.out.println("1:Dollar \t2:Ringgit ");
+        System.out.println("1:Dollar \t2:Ringgit ");1
         code = sc.nextInt();
          
         System.out.println("How much Money you want to convert ?");
