@@ -2,10 +2,9 @@ import java.util.*;
 import java.text.DecimalFormat;
  
 class CurrencyConverter {
-      
     public static void main(String[] args) {
   
-        double amount, dollar, code, ringgit ;
+        double amount, dollar, code, ringgit;
   
         DecimalFormat f = new DecimalFormat("##.##");
   
@@ -16,7 +15,7 @@ class CurrencyConverter {
   
         System.out.println("Which currency You want to Convert ? ");
          
-        System.out.println("1:Dollar \t2:Ringgit ");1
+        System.out.println("1:Dollar \t2:Ringgit ");
         code = sc.nextInt();
          
         System.out.println("How much Money you want to convert ?");
